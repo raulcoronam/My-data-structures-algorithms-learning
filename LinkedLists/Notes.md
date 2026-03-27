@@ -1,6 +1,6 @@
 # 📚 **Linked Lists y Queues**
 
-## 1. ***Introducción a las Linked Lists (Listas Enlazadas)***
+## 1. ***Introducción a las Linked Lists (Listas Enlazadas o encadenadas)***
 
 A diferencia de los Arrays, donde los elementos se guardan en bloques de memoria contiguos (uno al lado del otro), una Linked List es una colección lineal de elementos llamados Nodos, los cuales pueden estar dispersos en diferentes partes de la memoria.
 
@@ -33,6 +33,9 @@ node2.next = node3
 
 ## 2. ***Singly Linked Lists (Listas Simplemente Enlazadas)***
 En esta variante, la navegación es unidireccional (solo hacia adelante).
+
+En una *Singly List* tenemos un **head pointer** que apunta hacia un nodo (la cabeza de la fila), el cuál a su vez apunta hacia el siguiente nodo, 
+el cuál apunta hacia el siguiente nodo, hasta llegar a aquel nodo que no apunta hacia nada (es decir, su *next es = null*)
 
 ### Recorrido (Traversal)
 Para leer una lista, empezamos desde la "Cabeza" (Head) y saltamos de nodo en nodo usando el puntero next hasta llegar a None.
