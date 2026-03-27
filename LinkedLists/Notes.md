@@ -70,11 +70,11 @@ Tiene tres atributos: *val, next (siguiente) y prev (anterior).*
 
 Para mantener la integridad, siempre debemos actualizar ambos punteros:
 
-|Operación|           Lógica Clave|
-|------------------------------------------------------------------------------|
-|Insertar al Final|   tail.next = newNode, newNode.prev = tail, tail = newNode|
-|Borrar al Final|     newTail = tail.prev, newTail.next = None, tail = newTail|
-|Acceso/Búsqueda|     Sigue siendo $O(n)$ porque no hay índices directos.|
+|Operación|Lógica Clave|
+|---------|------------|
+|Insertar al Final|tail.next = newNode, newNode.prev = tail, tail = newNode|
+|Borrar al Final|newTail = tail.prev, newTail.next = None, tail = newTail|
+|Acceso/Búsqueda|Sigue siendo $O(n)$ porque no hay índices directos.|
 
 ## 4. ***Queues (Colas)***
 
@@ -125,7 +125,7 @@ Se pronuncia "deck". Es una cola híbrida que permite push y pop tanto por el fr
 
 |Operación|Array (Dinámico)|Singly Linked List|Doubly Linked List|
 |----------|---------------------|------------|-----------------|
-|Acceso    |	$O(1)$|	$O(n)$|	$O(n)$|
+|Acceso    |	$$O(1)$$|	$O(n)$|	$O(n)$|
 |Búsqueda|	$O(n)$|			$O(n)$|			$O(n)$|
 |Insertar Inicio|$O(n)$|		$O(1)$|			$O(1)$|
 |Insertar Final| $O(1)$ amortizado|	$O(1)$ (con puntero tail)|$O(1)$|
