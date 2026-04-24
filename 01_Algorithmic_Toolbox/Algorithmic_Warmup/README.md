@@ -52,6 +52,8 @@ Big-O es la herramienta matemática para clasificar algoritmos según su tasa de
 
 ### 🤓 Definición Matemática (Traducida)
 
+$$f(n) = O(g(n)) \text{ o } f \preceq g \text{ si existen constantes } N \text{ y } c \text{ tales que para todo } n \geq N, f(n) \leq c \cdot g(n)$$
+
 $$f(n) \le c \cdot g(n)$$
 
 *$$\forall dn \ge N$$*
