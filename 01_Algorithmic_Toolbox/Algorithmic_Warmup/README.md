@@ -69,7 +69,7 @@ Ordenado de **Mejor (Rápido)** a **Peor (Lento)**.
 
 
 
-[Image of Big O complexity chart]
+<img width="1073" height="961" alt="curva_asintótica" src="https://github.com/user-attachments/assets/2a8c10c4-d619-4585-960e-40436b81a965" />
 
 
 | Notación | Nombre | Analogía del Mundo Real | Ejemplo Técnico |
@@ -103,8 +103,6 @@ $$5n^3 \rightarrow O(n^3)$$
 ### Regla 3: Jerarquía de Clases
 
 $$\log n < \sqrt{n} < n < n \log n < n^2 < 2^n$$
-
-<img width="1073" height="961" alt="curva_asintótica" src="https://github.com/user-attachments/assets/2a8c10c4-d619-4585-960e-40436b81a965" />
 
 ---
 
