@@ -102,6 +102,8 @@ $$5n^3 \rightarrow O(n^3)$$
 
 $$\log n < \sqrt{n} < n < n \log n < n^2 < 2^n$$
 
+<img width="1073" height="961" alt="curva_asintótica" src="https://github.com/user-attachments/assets/2a8c10c4-d619-4585-960e-40436b81a965" />
+
 ---
 
 ## 🚦 6. Diferencias: $O$, $\Omega$, $\Theta$
